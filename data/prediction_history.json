@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2026-11-17 19:57:08",
+    "time_only": "19:57:08",
+    "date_only": "2026-11-17",
+    "filename": "test_sample.jpg",
+    "plant_name": "Apple",
+    "disease_name": "Apple Scab",
+    "display_name": "Apple \u2013 Apple Scab",
+    "confidence_score": 97.5,
+    "confidence_pct": "97.5%",
+    "is_healthy": false,
+    "is_reliable": true,
+    "status": "Diseased",
+    "reliability": "Reliable",
+    "image_hash": "abc123test"
+  },
+  {
+    "id": 2,
+    "timestamp": "2026-11-17 20:05:00",
+    "time_only": "20:05:00",
+    "date_only": "2026-11-17",
+    "filename": "Screenshot 2026-11-17 183909.png",
+    "plant_name": "Strawberry",
+    "disease_name": "Leaf Scorch",
+    "display_name": "Strawberry \u2013 Leaf Scorch",
+    "confidence_score": 91.72,
+    "confidence_pct": "91.7%",
+    "is_healthy": false,
+    "is_reliable": true,
+    "status": "Diseased",
+    "reliability": "Reliable",
+    "image_hash": "bc18b719ca8faae86a8cd0d75f1edc55caa105c9144311e17ec79028f5e43e16"
+  }
+]

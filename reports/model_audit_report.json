@@ -1,0 +1,51 @@
+{
+  "project_name": "Plant Disease Detection from Leaf Images Using Deep Learning",
+  "timestamp": "2026-11-17 19:39:22",
+  "model_file": "C:\\Dileep\\git projects\\Plant_Disease_Detection_New\\plant_disease_model.keras",
+  "model_file_exists": true,
+  "input_shape": [
+    null,
+    96,
+    96,
+    3
+  ],
+  "output_shape": [
+    null,
+    38
+  ],
+  "num_classes": 38,
+  "expected_classes": 38,
+  "classes_match_expected": true,
+  "trainable_parameters": 119334,
+  "non_trainable_parameters": 480,
+  "total_parameters": 119814,
+  "class_ordering": {
+    "first_5": [
+      "Apple___Apple_scab",
+      "Apple___Black_rot",
+      "Apple___Cedar_apple_rust",
+      "Apple___healthy",
+      "Blueberry___healthy"
+    ],
+    "last_5": [
+      "Tomato___Septoria_leaf_spot",
+      "Tomato___Spider_mites Two-spotted_spider_mite",
+      "Tomato___Target_Spot",
+      "Tomato___Tomato_mosaic_virus",
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    ],
+    "is_alphabetical": false,
+    "note": "Class names preserved in exact original training order (non-alphabetical)."
+  },
+  "preprocessing_pipeline": {
+    "color_conversion": "RGB",
+    "target_size": [
+      96,
+      96
+    ],
+    "normalization": "1.0 / 255.0 (Range [0.0, 1.0])",
+    "data_type": "float32",
+    "tensor_dimension": "[1, 96, 96, 3]"
+  },
+  "audit_status": "PASSED"
+}
